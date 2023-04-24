@@ -7,7 +7,7 @@ class Client(models.Model):
     name = models.CharField(max_length=30)
     address = models.CharField(max_length=50)
     email = models.EmailField()
-    phone = models.CharField(8)
+    phone = models.CharField(max_length=8)
 
 
 class Item(models.Model):
