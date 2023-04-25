@@ -13,7 +13,7 @@ class Client(Model):
 class Item(Model):
     name = CharField(max_length=30)
     section = CharField(max_length=30)
-    price = FloatField()
+    price = FloatField(verbose_name='value')
 
     def __str__(self):
         return self.name

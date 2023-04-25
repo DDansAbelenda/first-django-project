@@ -36,7 +36,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('number', models.IntegerField()),
                 ('date', models.DateField()),
-                ('is_delivered', models.BooleanField()),
+                ('date_hierarchy', models.BooleanField()),
             ],
         ),
     ]
