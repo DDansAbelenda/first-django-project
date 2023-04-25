@@ -15,6 +15,9 @@ class Item(Model):
     section = CharField(max_length=30)
     price = FloatField()
 
+    def __str__(self):
+        return self.name
+
 
 
 class Order(Model):
